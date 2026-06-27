@@ -9,4 +9,5 @@ Then I designed a case in Fusion 360 for my project, and found solutions so as t
 <img width="669" height="593" alt="Screenshot 2026-06-25 144455" src="https://github.com/user-attachments/assets/96535f8e-32a2-409a-b336-e39b6fc55e91" />
 <img width="544" height="655" alt="Screenshot 2026-06-26 144135" src="https://github.com/user-attachments/assets/531ab09e-ec2e-4cc9-9e48-e4345823149a" />
 <img width="635" height="529" alt="Screenshot 2026-06-26 144124" src="https://github.com/user-attachments/assets/9c8ce95d-c4bc-4c91-83f6-3ee8b4c3b20f" />
-Here is my BoM (which you can find in the root of my repository aswell):[bom.csv](https://github.com/user-attachments/files/29404539/bom.csv)
+Here is my BoM (which you can find in the root of my repository aswell):[bom.csv](https://github.com/user-attachments/files/29404539/bom.csv) [bom.txt](https://github.com/user-attachments/files/29404666/bom.txt)
+
