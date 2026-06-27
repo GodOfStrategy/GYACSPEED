@@ -14,6 +14,7 @@ Proof of cheapest JLCPCB Shipping option:
 
 ![image](https://stasis.hackclub-assets.com/images/1782542237634-cz8sdp.png)
 ![image](https://stasis.hackclub-assets.com/images/1782542330106-8924o7.png)
+Lapse link- https://lapse.hackclub.com/timelapse/noI3htZBbn3m
 
 # 6/26/2026 9 AM - Moreeee CADD
 
