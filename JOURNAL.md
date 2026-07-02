@@ -1,6 +1,6 @@
 # 7/1/2026 4:10 PM - Routing Update
 _Time spent: 0.16666667h_
-_Today, I routed the BQ2970 and the TPS61022 and their passive components. Next time I will edit the BoM.
+Today, I routed the BQ2970 and the TPS61022 and their passive components. Next time I will edit the BoM.
 
 Here is the lapse: https://lapse.hackclub.com/timelapse/zb-mngRtFGg5
 
