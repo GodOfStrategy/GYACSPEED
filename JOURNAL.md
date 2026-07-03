@@ -1,3 +1,9 @@
+# 7/3/2026 4:10PM - BOM Progress
+_Time spent:  1.4h_
+Today I made a good BoM, carefully organizing the components and ensuring that everything aligns with the design requirements. This step felt like a solid milestone, since a well-prepared BoM makes the upcoming edits and procurement much smoother. It also gave me a clearer picture of how the project is shaping up and what refinements I’ll need to focus on next.
+Here is the image of my bom:<img width="965" height="453" alt="{42BB9702-31BB-45E9-9633-5F261E54E03D}" src="https://github.com/user-attachments/assets/323b55a9-c3f0-48ec-b9ee-bd0a49165368" />
+Lapse link:https://lapse.hackclub.com/timelapse/dtzv5QGsNK3_
+
 # 7/1/2026 4:10 PM - Routing Update
 _Time spent: 0.16666667h_
 Today, I routed the BQ2970 and the TPS61022 and their passive components. Next time I will edit the BoM.
