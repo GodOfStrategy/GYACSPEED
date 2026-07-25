@@ -1,3 +1,14 @@
+# 7/25/2026 6:30PM – Project Expansion  
+_Time spent: 0.51666667h_  
+My project was sadly moved to **Tier 3** by a reviewer last time, so I decided to make it more complex by adding **Bluetooth connectivity** and an **SD card**. The idea is to store the data from the gyroscope, accelerometer, etc., and then, when I bring it home to charge, transfer the data to my device and use firmware to make something meaningful out of it.  
+
+With this in mind, I searched for a suitable chip and decided to use the **CC2340R53 BLE chip by Texas Instruments**.  
+<img width="457" height="553" alt="image" src="https://github.com/user-attachments/assets/b84a9fbc-1b7f-4d3d-ab61-a54b0d329060" />
+
+Lapse link: https://lapse.hackclub.com/timelapse/TdRiI4ZiH4CB
+
+
+
 # 7/3/2026 4:10PM - BOM Progress
 _Time spent:  1.4h_
 Today I made a good BoM, carefully organizing the components and ensuring that everything aligns with the design requirements. This step felt like a solid milestone, since a well-prepared BoM makes the upcoming edits and procurement much smoother. It also gave me a clearer picture of how the project is shaping up and what refinements I’ll need to focus on next.
