@@ -14,6 +14,7 @@ Today I dove into the CC2340R53 and began understanding its power rails and debu
 - Researched reliable **USB‑to‑UART adapters**: FTDI FT232RL (best), CP2102 (good balance), CH340G (budget).  
 
 Also, I started drawing schematics for the chip, added 2 crystals as shown in the datasheet, added decoupling capacitors, and also searched on how to upload data to the CC2340R53.  
+Here's the lapse link :"https://lapse.hackclub.com/timelapse/8KGO7cviNVYR"
 <img width="1057" height="752" alt="image" src="https://github.com/user-attachments/assets/9aeace7f-36fb-48c8-9e3a-1680d3d362d5" />
 <img width="1575" height="667" alt="image" src="https://github.com/user-attachments/assets/e77eca75-36e5-4f90-afed-2d234386a643" />
 
