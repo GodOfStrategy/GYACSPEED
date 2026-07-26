@@ -1,3 +1,23 @@
+# 7/26/2026 – CC2340R53 Exploration  
+_Time spent: ~0.7h_  
+
+Today I dove into the CC2340R53 and began understanding its power rails and debug/programming interfaces.  
+
+- Learned that **VDDR** is the regulated RF domain supply rail, requiring bulk (10 µF) and local (100 nF) decoupling capacitors placed close to the pins.  
+- Clarified how **C105** and other decoupling capacitors are connected: directly between VDDR and GND, with careful PCB placement.  
+- Understood **DNM/DNP** markings in the schematic — optional footprints not populated by default, often used for tuning (like series resistors on crystals).  
+- Confirmed that the CC2340R53 **cannot handle 5 V**; it operates strictly between 1.71–3.8 V, so a 3.3 V regulator is required when running from USB or other 5 V sources.  
+- Reviewed **SWDIO/SWDCK** pins: ARM SWD debug interface, normally connected to a probe (XDS110, J‑Link, or RP2040 Picoprobe).  
+- Considered using the **XIAO RP2040** as a programmer, but realized its SWD pads are underside golden circles — inaccessible once soldered.  
+- Explored alternatives: adding a dedicated SWD header for CC2340R53 or using its **UART bootloader**.  
+- Identified **Pin 6 = RX** and **Pin 7 = TX** on CC2340R53 for UART programming, cross‑connected to TX/RX of a USB‑UART adapter or the XIAO.  
+- Researched reliable **USB‑to‑UART adapters**: FTDI FT232RL (best), CP2102 (good balance), CH340G (budget).  
+
+Also, I started drawing schematics for the chip, added 2 crystals as shown in the datasheet, added decoupling capacitors, and also searched on how to upload data to the CC2340R53.  
+<img width="1057" height="752" alt="image" src="https://github.com/user-attachments/assets/9aeace7f-36fb-48c8-9e3a-1680d3d362d5" />
+<img width="1575" height="667" alt="image" src="https://github.com/user-attachments/assets/e77eca75-36e5-4f90-afed-2d234386a643" />
+
+
 # 7/25/2026 6:30PM – Project Expansion  
 _Time spent: 0.51666667h_  
 My project was sadly moved to **Tier 3** by a reviewer last time, so I decided to make it more complex by adding **Bluetooth connectivity** and an **SD card**. The idea is to store the data from the gyroscope, accelerometer, etc., and then, when I bring it home to charge, transfer the data to my device and use firmware to make something meaningful out of it.  
