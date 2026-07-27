@@ -1,3 +1,23 @@
+# 7/27/2026 - Display & Interface Update
+
+_Time spent: 0.616h_
+
+As per a suggestion by @Madhav, it would be better to use a TFT display instead of an OLED, because OLEDs don’t have enough brightness to be visible outdoors. Hence, I searched for a TFT display which is [SmartElex 2.4 inch TFT LCD](https://www.amazon.in/SmartElex-2-4-inch-Interface-Resolution-Embedded/dp/B0GFD2GKS3/ref=sr_1_4?crid=244DTUY4MZBQU&dib=eyJ2IjoiMSJ9.mDHIa2KAK2pmYUCsQJKHijIuZuYtAhf37UUXZ595NunUV92PkwKzGlaTkl74UG3vta_Y1FTv8jmFhQ4SpozWyYBP9G75R6iKsYMW7jx-yHz3v-XOoo8-NUCHxRbKeTt5cD8Obvwvtn8YszEZtxFSuAXtiARzswfbkZinJIO2O0KPUdrK37qG1dR4FZ4mwfbZ0ufkE-BBbzZWaG5fWrOaPU771ftGh-Zgijp7mwLvgODtW0shDh-DNo6jAhYBoJCUGXP24-NSn2eDBEwA2ogDf_CD-Ctqugaj9IkxcIXHBB4.f5dMLYGoDtHfcPthudfcRWmNg96l1DWC8e63EOn9BP8&dib_tag=se&keywords=3+inch+tft+lcd&qid=1785163110&sprefix=3+inch+tft+lc%2Caps%2C434&sr=8-4).
+
+Then, I went ahead and deleted the OLED symbol and schematics, and imported the symbol and footprint from [Choaib‑ELMADI’s KiCad library](https://github.com/Choaib-ELMADI/pcb-projects/blob/main/Libraries/2.4''%20240x320%20LCD%20Display%20TFT%20Module/footprints/2.4_240x320_LCD_Display_TFT_Module.pretty/2.4_240x320_LCD_Display_TFT_Module.kicad_mod).
+
+I also have the dimensions from the Amazon vendor for the display, which I’ll be using as my dimensions for the case when I build it tomorrow.
+
+Also, you may wonder why I didn’t continue with the Bluetooth chip. Well, that’s because there is simply no need to add a Bluetooth chip — I don’t know why I tried to add that initially, but eventually I realized it wasn’t really a great addition.
+
+Finally, I changed the LSM6DS3 from SPI to I²C communication to allow my TFT to have the SPI connection.
+
+Lapse link: https://lapse.hackclub.com/timelapse/uwCEZIGlqctU
+
+
+
+
+
 # 7/26/2026 – CC2340R53 Exploration  
 _Time spent: ~0.7h_  
 
