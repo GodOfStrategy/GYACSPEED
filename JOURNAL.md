@@ -13,6 +13,8 @@ Also, you may wonder why I didn’t continue with the Bluetooth chip. Well, that
 Finally, I changed the LSM6DS3 from SPI to I²C communication to allow my TFT to have the SPI connection.
 
 Lapse link: https://lapse.hackclub.com/timelapse/uwCEZIGlqctU
+<img width="1913" height="907" alt="image" src="https://github.com/user-attachments/assets/6ea524f6-53fd-4410-b360-4c0a3e54a666" />
+<img width="1201" height="471" alt="image" src="https://github.com/user-attachments/assets/017a1137-3240-4081-8cec-4b2454aed350" />
 
 
 
