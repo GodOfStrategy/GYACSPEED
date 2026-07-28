@@ -1,3 +1,12 @@
+# 7/28/2026 9:25PM – CAD Platform Issues  
+_Time spent: 0.483h_  
+
+I was going to edit the case, but then Fusion said my free trial had expired. I tried to verify my educational institution, but it failed twice. So I moved on to Onshape, but there something strange kept occurring — glitched parts and mesh structures kept appearing unexpectedly!  
+<img width="472" height="606" alt="image" src="https://github.com/user-attachments/assets/6b774dec-fbfd-4657-91a0-926d20f15915" />
+<img width="792" height="617" alt="image" src="https://github.com/user-attachments/assets/fa31e72c-244e-4b03-a970-90c4ba0ecb9d" />
+
+Lapse link: https://lapse.hackclub.com/timelapse/un3Wzf8xIZ_E
+ 
 # 7/27/2026 - Display & Interface Update
 
 _Time spent: 0.616h_
