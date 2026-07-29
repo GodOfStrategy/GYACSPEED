@@ -8,7 +8,9 @@ How my assembled PCB is supposed to look like:<img width="897" height="557" alt=
 Then I designed a case in Fusion 360 for my project, and found solutions so as to how will I mount it on my bicycle and then came up with this monstrosity:<img width="1375" height="670" alt="Screenshot 2026-06-25 144437" src="https://github.com/user-attachments/assets/9607199a-67d4-4d0d-a152-9fe11bc8bcbb" />
 <img width="669" height="593" alt="Screenshot 2026-06-25 144455" src="https://github.com/user-attachments/assets/96535f8e-32a2-409a-b336-e39b6fc55e91" />
 <img width="544" height="655" alt="Screenshot 2026-06-26 144135" src="https://github.com/user-attachments/assets/531ab09e-ec2e-4cc9-9e48-e4345823149a" />
-<img width="635" height="529" alt="Screenshot 2026-06-26 144124" src="https://github.com/user-attachments/assets/9c8ce95d-c4bc-4c91-83f6-3ee8b4c3b20f" />
+<img width="871" height="643" alt="image" src="https://github.com/user-attachments/assets/35a4f17e-7a59-459e-8a55-e98b83dcbaca" />
+<img width="687" height="602" alt="image" src="https://github.com/user-attachments/assets/1ba65a6b-ff7a-4272-8762-803a01fadbfd" />
+
 Here is my BoM (which you can find in the root of my repository aswell):
 
 |Designator|Footprint|Quantity|Value|LCSC Part #|Price (US $)|Links|Distributor|Generic Name|
@@ -19,7 +21,7 @@ Here is my BoM (which you can find in the root of my repository aswell):
 | C2 | 402 | 1.0 | 1pF |  | 0.25 | 04023A1R0DAT2A KYOCERA AVX \| Mouser India |  |  |
 | C6 | 402 | 10.0 | 1uF |  | 0.17 | https://www.mouser.in/ProductDetail/KYOCERA-AVX/0402X5R105KTAAT?qs=XAiT9M5g4x9uZyL2wCxs9w%3D%3D | Mouser India |  |
 | D1 | D_SMA | 3.0 | SS14 |  | 1.3 | https://www.mouser.in/ProductDetail/onsemi/SS14?qs=mVVXn4M53U%252BvrBaFv5vr4w%3D%3D | Mouser India | Reverse Polarity Protection diode |
-| DS1 | LCD_OLED_128X64_1.3_I2C | 2.0 | OLED_128X64_1.3_I2C |  | 5.66 | https://www.amazon.in/Tishvi-Interface-Contrast-Microcontroller-Projects/dp/B0GZQBH8TX/ref=sr_1_5?crid=5ELFGR2Y3AVB&dib=eyJ2IjoiMSJ9.Jpr0nalYGfL14nV7bbjmTZKJv2EIKupA4PS6ncRHPeflKUuEP1chaxLUuG31tnS91O83QhHNpJtINdHxloWLYH9lf4NJ4qSOWR6nymU5ejpQAXrm3idjtpBYQ0aIwBILTmNX_3lALKvsE76wo-qvywPqliJmu2u1Sw0mh8OCet7xKizlRF5dPz3CHCYLgBtFUnNA9Eu-mYQBGu7QWCQPqbfzEN95b4kUAEvBXaaM7DjF16ZafKrP9sBf0yOEFYHzo9n5p0J-zkTF9JNQ7vyMX4nY2xR5RTSpoe2_mFh8lyM.-pu-_CBvqfhh_vnW6SlNHAERV8AtyvnIy9OJlCs-LRc&dib_tag=se&keywords=1.3%22+OLED+IIC&qid=1782751854&sprefix=1.3+oled+iic%2Caps%2C282&sr=8-5 | Amazon India | OLED |
+| DS1 | TFT LCD 240x320 2.4" | 2.0 | TFT LCD 2.4" SPI |  | 16.53 | [https://www.amazon.in/Tishvi-Interface-Contrast-Microcontroller-Projects/dp/B0GZQBH8TX/ref=sr_1_5?](https://www.amazon.in/SmartElex-2-4-inch-Interface-Resolution-Embedded/dp/B0GFD2GKS3/ref=sr_1_4?crid=244DTUY4MZBQU&dib=eyJ2IjoiMSJ9.mDHIa2KAK2pmYUCsQJKHijIuZuYtAhf37UUXZ595NunUV92PkwKzGlaTkl74UG3vta_Y1FTv8jmFhQ4SpozWyYBP9G75R6iKsYMW7jx-yHz3v-XOoo8-NUCHxRbKeTt5cD8Obvwvtn8YszEZtxFSuAXtiARzswfbkZinJIO2O0KPUdrK37qG1dR4FZ4mwfbZ0ufkE-BBbzZWaG5fWrOaPU771ftGh-Zgijp7mwLvgODtW0shDh-DNo6jAhYBoJCUGXP24-NSn2eDBEwA2ogDf_CD-Ctqugaj9IkxcIXHBB4.f5dMLYGoDtHfcPthudfcRWmNg96l1DWC8e63EOn9BP8&dib_tag=se&keywords=3+inch+tft+lcd&qid=1785163110&sprefix=3+inch+tft+lc%2Caps%2C434&sr=8-4)crid=5ELFGR2Y3AVB&dib=eyJ2IjoiMSJ9.Jpr0nalYGfL14nV7bbjmTZKJv2EIKupA4PS6ncRHPeflKUuEP1chaxLUuG31tnS91O83QhHNpJtINdHxloWLYH9lf4NJ4qSOWR6nymU5ejpQAXrm3idjtpBYQ0aIwBILTmNX_3lALKvsE76wo-qvywPqliJmu2u1Sw0mh8OCet7xKizlRF5dPz3CHCYLgBtFUnNA9Eu-mYQBGu7QWCQPqbfzEN95b4kUAEvBXaaM7DjF16ZafKrP9sBf0yOEFYHzo9n5p0J-zkTF9JNQ7vyMX4nY2xR5RTSpoe2_mFh8lyM.-pu-_CBvqfhh_vnW6SlNHAERV8AtyvnIy9OJlCs-LRc&dib_tag=se&keywords=1.3%22+OLED+IIC&qid=1782751854&sprefix=1.3+oled+iic%2Caps%2C282&sr=8-5 | Amazon India | OLED |
 | E1 | XCVR_ANT-GNCP-TH25AL12 | 2.0 | ANT-GNCP-TH25AL12 |  | 22.2 | https://www.mouser.in/ProductDetail/TE-Connectivity/ANT-GNCP-TH25AL12?qs=A6eO%252BMLsxmRfsTs3t3ApUw%3D%3D | Mouser India | Passive antenna |
 | J1, J2 | PinHeader_1x05_P2.54mm_Vertical | 0.0 | Conn_01x05_Pin |  | 0.0 |  | Self-Sourced |  |
 | J3 | PinHeader_1x02_P2.54mm_Vertical |  | Conn_01x02_Socket |  |  |  |  |  |
@@ -47,7 +49,7 @@ Here is my BoM (which you can find in the root of my repository aswell):
 |  |  | 5.0 |  |  | 5.0 |PCBs from JLCPCB|  | PCB |
 |  |  | 1.0 |  |  | 7.16 |Stencil so that I can solder them myself|  | Stencil |
 |  |  |  |  |  |  |  |  |  |
-|  | TOTAL --> |  | 192.404 |  |  |  |  |  |
+|  | TOTAL --> |  | 203.89 $|  |  |  |  |  |
 
 [bom(final).csv](https://github.com/user-attachments/files/29474485/bom.final.csv)
 
