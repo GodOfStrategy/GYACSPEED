@@ -1,3 +1,16 @@
+# 7/29/2026 11:00AM – Case Remodel with TFT Display  
+_Time spent: 1.88h_  
+
+Last time I changed my PCB designs to include a TFT LCD display. Today I remodelled my case. I made a new Autodesk account to access Fusion 360 (since I can’t use the education license right now because my school is on holidays and won’t produce any documents).  
+
+I imported the new 3D model for my PCB and display, removed the old models, and then tinkered with how to mount the display. I finally decided to screw it into the case top, which required extensive edits to make that possible. For the first time, I also filleted (rounded) the case corners — a small but exciting milestone in my CAD journey!  
+<img width="687" height="602" alt="image" src="https://github.com/user-attachments/assets/6267f5f4-682f-445d-9699-228af4cc682c" />
+<img width="736" height="661" alt="image" src="https://github.com/user-attachments/assets/4e182393-3376-484a-9cb8-3ebb3ae7325d" />
+<img width="871" height="643" alt="image" src="https://github.com/user-attachments/assets/5353a661-c31b-4a23-96cd-6d2fb787a620" />
+
+Lapse link: https://lapse.hackclub.com/timelapse/eq9fp9hHtt8P
+
+
 # 7/28/2026 9:25PM – CAD Platform Issues  
 _Time spent: 0.483h_  
 
