@@ -1,5 +1,5 @@
 # GYACSPEED
-Speedometer, accelerometer and a gyroscope for my bicycle, with the XIAO RP2040 as the MCU, with a 1.3" OLED display for the information.
+Speedometer, accelerometer and a gyroscope for my bicycle, with the XIAO RP2040 as the MCU, with a 2.4" TFT (no touchscreen) display for the information.
 I saw the Hermes starter project and though, "Why only stop at a gyroscope?" and then answered my own question by adding a speedometer powered by the Ublox NEO-M9N GNSS module, and a gyroscope and an accelerometer powered by the LSM6DSLTR!! So that I can see my speed, acceleration, and how I take turn using the gryoscope and such, with the XIAO RP2040 serving as my MCU.
 So, I drew the Schematics:<img width="1391" height="751" alt="{8956B950-8E5F-49AF-B97F-7C96270D963C}" src="https://github.com/user-attachments/assets/7e88a04e-40c4-4668-8409-4212c6a5d7c5" />
 Then I routed the PCB:<img width="673" height="504" alt="{BFD462F4-F5AD-4BB6-BA28-4471AD29F06E}" src="https://github.com/user-attachments/assets/d28e0b98-8791-46cc-9660-d0f1f2e81bbd" />
@@ -10,7 +10,7 @@ Then I designed a case in Fusion 360 for my project, and found solutions so as t
 <img width="544" height="655" alt="Screenshot 2026-06-26 144135" src="https://github.com/user-attachments/assets/531ab09e-ec2e-4cc9-9e48-e4345823149a" />
 <img width="871" height="643" alt="image" src="https://github.com/user-attachments/assets/35a4f17e-7a59-459e-8a55-e98b83dcbaca" />
 <img width="687" height="602" alt="image" src="https://github.com/user-attachments/assets/1ba65a6b-ff7a-4272-8762-803a01fadbfd" />
-
+The idea of the mount is to be modular and help me join the two parts by using a single mount. The mount is based on the idea of mounting the project on my bicycle handle bar. I took some measurements and made a cylinder with walls which would wrap around my bicycle bar. After that I added an extension to the cylinder with a flat base, where I added the screw holes. I then added a triangular kind of part to join the cylinder with my main project case
 Here is my BoM (which you can find in the root of my repository aswell):
 
 |Designator|Footprint|Quantity|Value|LCSC Part #|Price (US $)|Links|Distributor|Generic Name|
