@@ -1,3 +1,18 @@
+# 8/18/2026 11:00AM – Adding Assembly Instructions 
+_Time spent: 0.33333h_  
+
+I added assembly instructions to my README!
+
+<img width="855" height="612" alt="image" src="https://github.com/user-attachments/assets/5151ccec-dea8-4476-963e-a129c4da7c13" />
+<img width="340" height="256" alt="image" src="https://github.com/user-attachments/assets/6aea17c7-02f1-4ca6-bc74-fdf95d468753" />
+<img width="1080" height="776" alt="image" src="https://github.com/user-attachments/assets/47c5efab-a17e-4d3b-ab7e-24790738b924" />
+<img width="937" height="605" alt="image" src="https://github.com/user-attachments/assets/5be179ef-2a8e-4c2f-bf0e-15210620cc15" />
+<img width="1206" height="499" alt="image" src="https://github.com/user-attachments/assets/192c9b87-77ca-4aa1-a6db-a488919f62a2" />
+<img width="1277" height="601" alt="image" src="https://github.com/user-attachments/assets/48fd0923-2aa9-408b-a0f9-14edcccd503d" />
+
+
+Lapse link: [https://lapse.hackclub.com/timelapse/eq9fp9hHtt8P](https://lapse.hackclub.com/timelapse/3rJiL33sXAL8)
+
 # 7/29/2026 11:00AM – Case Remodel with TFT Display  
 _Time spent: 1.88h_  
 
