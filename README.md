@@ -10,8 +10,26 @@ Then I designed a case in Fusion 360 for my project, and found solutions so as t
 <img width="544" height="655" alt="Screenshot 2026-06-26 144135" src="https://github.com/user-attachments/assets/531ab09e-ec2e-4cc9-9e48-e4345823149a" />
 <img width="871" height="643" alt="image" src="https://github.com/user-attachments/assets/35a4f17e-7a59-459e-8a55-e98b83dcbaca" />
 <img width="687" height="602" alt="image" src="https://github.com/user-attachments/assets/1ba65a6b-ff7a-4272-8762-803a01fadbfd" />
-The idea of the mount is to be modular and help me join the two parts by using a single mount. The mount is based on the idea of mounting the project on my bicycle handle bar. I took some measurements and made a cylinder with walls which would wrap around my bicycle bar. After that I added an extension to the cylinder with a flat base, where I added the screw holes. I then added a triangular kind of part to join the cylinder with my main project case
-Here is my BoM (which you can find in the root of my repository aswell):
+The idea of the mount is to be modular and help me join the two parts by using a single mount. The mount is based on the idea of mounting the project on my bicycle handle bar. I took some measurements and made a cylinder with walls which would wrap around my bicycle bar. After that I added an extension to the cylinder with a flat base, where I added the screw holes. I then added a triangular kind of part to join the cylinder with my main project case.
+
+Instructions on Assembling:
+1. Solder the Header Pins.
+2. seat the pcb into the top case.
+3. Now there is an opening in the bottom of the top case to allow jumpers from the Li-Po to connect with the Main PCB as shown here: <img width="855" height="612" alt="image" src="https://github.com/user-attachments/assets/1d6abc1b-752e-452f-8728-d2d4f5e3f2af" />
+4. The hole on the side of the bottom [battery] case looks like so: <img width="340" height="256" alt="image" src="https://github.com/user-attachments/assets/f017d5fa-ce6b-4431-a365-6335e444abe7" />
+5. Run two jumpers connecting the Battery to the PCB, the left pin on the main PCB is the +ve terminal, as mentioned on the silkscreen.
+6. There are mounting holes on tft module that I will be purchasing, and I have also added holes on my case top so that I can secure the display. To do so, we place the Display on the bottom of the top case like so: <img width="1080" height="776" alt="image" src="https://github.com/user-attachments/assets/869c6179-b295-429a-a497-2763aa93582d" /> and then insert bolts(M3/ 15mm) form the top :<img width="850" height="734" alt="image" src="https://github.com/user-attachments/assets/6f98b689-64b3-4ae6-b168-76cfbd972b6a" /> and screw them with the nuts tightly.
+7. Then we again use jumper wires to connect the display to the pcb <img width="1080" height="776" alt="image" src="https://github.com/user-attachments/assets/72a19163-688c-4f84-8439-e5ae3d56cc4a" /><img width="1206" height="499" alt="image" src="https://github.com/user-attachments/assets/23410524-7a41-4132-a9f9-68b7a5490db8" />
+after which we place the top case cover on the top case and put 30 mm M3 bolts through the screw holes and secure them with M3 nuts.<img width="763" height="563" alt="image" src="https://github.com/user-attachments/assets/312eea14-e4a0-4d1e-a16b-8e4a492f1690" />
+8. For the bottom case, we insert our battery in the main bottom case, run the jumpers to the main PCB through the openings, and then We put the case cover on, and screw it using M3 30mm bolts and M3 nuts.<img width="937" height="605" alt="image" src="https://github.com/user-attachments/assets/e6092aee-d60b-4e3b-9fca-3e6349cc309e" />
+9. Now, we have two modules, to mount them together on a bicycle handlebar, we simply put them on the bicycle bar and then screw the both together in this mount-ish-part <img width="1277" height="601" alt="image" src="https://github.com/user-attachments/assets/a30458e6-9a37-430f-a17e-53c9abfdf9bf" />
+using the screw holes, and M3 15mm bolts along with M3 nuts.
+Thats it! You're done
+
+
+
+
+Here is my BoM (which you can find in the root of my repository as well):
 
 |Designator|Footprint|Quantity|Value|LCSC Part #|Price (US $)|Links|Distributor|Generic Name|
 |---|---|---|---|---|---|---|---|---|
