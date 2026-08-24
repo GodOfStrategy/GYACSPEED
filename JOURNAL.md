@@ -1,3 +1,13 @@
+# 8/24/2026 11:00AM – Impedance Matching
+_Time spent: 0.25h_
+
+I was given the feedback, to impedance match my trace, so I did it.
+I removed the vias, because the distance they were adding between the rf trace and the ground plane were leading to some really big, and impractical values for the RF trace Width, like it was telling me to add 1.6 mm wide trace, to match the impedance. Therefore I removed the vias.
+<img width="1786" height="767" alt="image" src="https://github.com/user-attachments/assets/5e6d296b-e5a0-400a-b5db-6f2382140657" />
+<img width="810" height="174" alt="image" src="https://github.com/user-attachments/assets/ca299293-b57b-452a-821f-ad238b20f63b" />
+<img width="1045" height="764" alt="image" src="https://github.com/user-attachments/assets/9338a2b0-ee8a-4eaf-98db-e19de239e1a2" />
+
+
 # 8/18/2026 11:00AM – Adding Assembly Instructions 
 _Time spent: 0.33333h_  
 
