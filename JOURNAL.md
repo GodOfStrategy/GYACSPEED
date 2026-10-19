@@ -1,3 +1,14 @@
+
+# 10/19/2026
+_Time spent: 1h_
+
+So apparently, after I ordered the PCBs, I realised that the buck I used in my pcb only supported till 5V input, but y 2S lipo would output 7.4V (nom) so I quickly changed to the TPS566242 which is supported till 17V input and 2A max output with adjustable output Voltage, so I used TI's WEBENCh tool to get the reference schematics, copied it down in my kicad, then ordered the necessary parts in through hole format, such as the inductor, ressitor and capacitor, nbut unfortunately one resistor needed fir the circuit (30.9k) was unavailable in through hole format so i ordered it in a 0805 package <img width="832" height="538" alt="image" src="https://github.com/user-attachments/assets/4cf443d3-a18c-4d69-ab18-dd02bc3d08f1" />
+Now, I had to imporivise, luckily the package of the overdischarge protection IC the BQ BQ29703DSER matches with the TPS566424. The BQ29703DSER was unavailble on robu.in or any other Indian distributor (avoiding customs) so i have to now take care and charge my battery every 4-5 days (2000mah battery), now the footprint for the BQ29703DSER was empty, and its other passives were aswell, and I noticed that If I place the tps566424 on the BQ29703DSER's footprint, it fits perfectly, and since I had traces drawn from that footprint to other complimenting components their pads were empty aswell, which meant I could make the circuitry of the tps566424 on a zero board externally and then use single core wires by soldering them to the pads on the pcb manually and this can work! This si the external circuitry  (drawn for reference in kicad) <img width="826" height="656" alt="image" src="https://github.com/user-attachments/assets/e9b1d816-1870-4a01-927e-99deafbc32a0" /> which I have copied onto the zero board as shown in the pictures below:
+<img width="3000" height="4000" alt="1792392384558" src="https://github.com/user-attachments/assets/bd4f4135-f1d1-44fe-8ba4-6070e7e040a1" />
+<img width="3000" height="4000" alt="1792392384547" src="https://github.com/user-attachments/assets/7de255c5-1941-4f96-a0a4-b7bda1814154" />
+The three wires are foe the 3 different points where I will need to solder the external ciruit to the empty pcb pads (the photo atatched below is of the pcb where the BQ29703DSER and its complimentary components were supposed to be, but it will be empty, since I do not have the BQ29703DSER)<img width="992" height="642" alt="1792392565416" src="https://github.com/user-attachments/assets/c0517b1b-1c5d-4ef4-9588-42c982eeccfd" />
+That basically sums todays part up, where I improvised, and soldered the external circuitry for the tps566242.
+Lapse link:"https://lapse.hackclub.com/timelapse/JnfyMHSPu2ji"
 # 8/24/2026 11:00AM – Impedance Matching
 _Time spent: 0.25h_
 
