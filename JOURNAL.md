@@ -1,6 +1,5 @@
-#10/27/2026
+# 10/27/2026
 _Time spent: 1.5166h_
-
 So After last time I now soldered on the jump wires form the zero board, and well well well, boy was it hard! Even after solding the three wires it didnt output any voltage, I check with my multimeter only to find that the 6th pin was grounded by the ground plane <img width="285" height="198" alt="image" src="https://github.com/user-attachments/assets/07893fa2-1b35-48ef-acae-46482390d530" /> which wasnt supposed to happen according to the schematics of the new buck, so I manually scraped off the copper from the pcb surrounding the pin, which was kinda messy and did harm the pads nearby, so soldering onto them got harder
 and then I had to jump on pcb itself with a few more cables, basically it was a mess on the pcb which was intentionally damaged, but I didnt damage it properly, so I need to use another pcb and assemble it to properly make my buck work now that I have experience of what it is gonna be like. Also I forgot to mention the part where I accidentally fried the buck aswell because the jumping wire came loose, so gotta do it all over again. Pheeeeeeeeeewwwwwwwww :(
 Lapse Link:"https://lapse.hackclub.com/timelapse/KZ0IvrJ_YrAx"
